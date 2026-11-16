@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Standard Operation Procedure</title>
+  <meta name="description" content="Department-wise SOP progress tracker and viewer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261113-16">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <div class="logo" aria-label="Company logo">
+          <img src="logo.png" alt="" onload="this.nextElementSibling.hidden=true" onerror="this.remove()">
+          <span class="logo-fallback">SOP</span>
+        </div>
+        <div>
+          <h1 id="appTitle"><span class="title-initial">S</span>tandard <span class="title-initial">O</span>peration <span class="title-initial">P</span>rocedure <span class="title-version"><span class="title-initial">V</span>ersion <span class="title-initial">02</span></span></h1>
+          <p id="companyName" class="muted">Imo Chicken &amp; Agro (Pvt) Ltd.</p>
+        </div>
+      </div>
+      <button id="libraryBtn" class="lib-btn" type="button" aria-haspopup="dialog"><span aria-hidden="true">📘</span> SOP Library</button>
+      <button id="themeBtn" class="icon-btn" title="Toggle theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Overall summary -->
+    <section class="summary card" aria-label="Overall progress">
+      <div class="summary-stats">
+        <div class="stat"><img class="kpi-card-icon" src="1.png" alt="" onerror="this.remove()"><span class="stat-num" id="statTotal">0</span><span class="stat-label">Total Departments</span></div>
+        <div class="stat"><img class="kpi-card-icon" src="2.png" alt="" onerror="this.remove()"><span class="stat-num ok" id="statDone">0</span><span class="stat-label">Finalized Departments</span></div>
+        <div class="stat"><img class="kpi-card-icon" src="3.png" alt="" onerror="this.remove()"><span class="stat-num" id="statOngoing">0</span><span class="stat-label">Ongoing Departments</span></div>
+        <div class="stat"><img class="kpi-card-icon" src="4.png" alt="" onerror="this.remove()"><span class="stat-num warn" id="statPending">0</span><span class="stat-label">Pending Departments</span></div>
+        <div class="stat stat-progress"><img class="kpi-card-icon" src="5.png" alt="" onerror="this.remove()"><span class="stat-num" id="statPctCard">0%</span><span class="stat-label">Overall Progress</span></div>
+      </div>
+      <div class="summary-progress">
+        <h3 class="panel-title gauge-title">Overall SOP Progress</h3>
+        <div class="overall-donut" id="overallDonut"><svg viewBox="0 0 220 125" aria-hidden="true"><defs><linearGradient id="gaugeTeal" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6d9b93"></stop><stop offset="55%" stop-color="#3f6763"></stop><stop offset="100%" stop-color="#31534f"></stop></linearGradient></defs><path class="gauge-limit gauge-red" pathLength="100" d="M4 110 A106 106 0 0 1 216 110"></path><path class="gauge-limit gauge-yellow" pathLength="100" d="M4 110 A106 106 0 0 1 216 110"></path><path class="gauge-limit gauge-green" pathLength="100" d="M4 110 A106 106 0 0 1 216 110"></path><path class="gauge-track" d="M20 110 A90 90 0 0 1 200 110"></path><path class="gauge-fill" id="gaugeFill" d="M20 110 A90 90 0 0 1 200 110"></path><path class="gauge-shine" d="M20 110 A90 90 0 0 1 200 110"></path></svg><strong id="overallDonutValue">0%</strong><span class="gauge-min">0</span><span class="gauge-max">100</span></div>
+        <div class="gauge-legend" aria-label="Progress limits"><span><i class="legend-red"></i>0–50</span><span><i class="legend-yellow"></i>50–80</span><span><i class="legend-green"></i>80–100</span></div>
+        <span id="statPct" hidden>0%</span><div class="bar big" hidden><div class="bar-fill" id="overallBar"></div></div>
+      </div>
+    </section>
+
+    <!-- Departments -->
+    <section aria-label="Departments">
+      <div class="section-head">
+        <h2>Departments</h2>
+        <button id="clearDept" class="link-btn" hidden>Show all departments</button>
+      </div>
+      <div id="deptGrid" class="dept-grid"></div>
+    </section>
+
+    <!-- SOP list -->
+    <section aria-label="SOP list">
+      <div class="section-head">
+        <h2 id="listTitle">All SOPs</h2>
+      </div>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search by code or title…" aria-label="Search SOPs">
+        <div class="seg" role="tablist" aria-label="Status filter">
+          <button class="seg-btn active" data-status="all">All</button>
+          <button class="seg-btn" data-status="done">Completed</button>
+          <button class="seg-btn" data-status="pending">Pending</button>
+        </div>
+      </div>
+      <div id="sopList" class="sop-list"></div>
+      <p id="emptyMsg" class="empty" hidden>No SOPs match your filters.</p>
+    </section>
+
+    <p id="loadError" class="error card" hidden></p>
+    <div class="dept-chart-panel card">
+      <h3 class="panel-title">SOP Progress by Department</h3>
+      <div id="deptChart" class="dept-chart" aria-label="Department progress column chart"></div>
+      <div id="deptTooltip" class="dept-tooltip" role="tooltip" hidden></div>
+    </div>
+    <div class="procedure-chart-panel card">
+      <h3 class="panel-title">Procedure Count by Department</h3>
+      <div id="procedureChart" class="procedure-chart" aria-label="Department procedure count column chart"></div>
+      <div id="procedureTooltip" class="dept-tooltip" role="tooltip" hidden></div>
+    </div>
+    <div class="sop-table-panel card">
+      <table class="sop-table" aria-label="SOP count and finalized date by department">
+        <thead><tr><th>No</th><th>Department</th><th>SOP Count</th><th>Finalized Date</th></tr></thead>
+        <tbody id="sopTableBody"></tbody>
+        <tfoot><tr><td></td><td>Total</td><td id="sopTableTotal">0</td><td></td></tr></tfoot>
+      </table>
+    </div>
+  </main>
+
+  <footer class="wrap footer muted">
+    Last updated: <span id="lastUpdated">–</span>
+  </footer>
+
+  <!-- PDF viewer -->
+  <div id="viewer" class="viewer" hidden role="dialog" aria-modal="true" aria-labelledby="viewerTitle">
+    <div class="viewer-bar">
+      <div class="viewer-info">
+        <span id="viewerCode" class="code"></span>
+        <h3 id="viewerTitle"></h3>
+      </div>
+      <div class="viewer-actions">
+        <a id="viewerOpen" class="btn ghost" target="_blank" rel="noopener">Open in new tab</a>
+        <a id="viewerDownload" class="btn ghost" download>Download</a>
+        <button id="viewerClose" class="btn">Close ✕</button>
+      </div>
+    </div>
+    <iframe id="viewerFrame" title="SOP document"></iframe>
+  </div>
+
+  <!-- SOP Library (built from the Word files by `npm run convert`) -->
+  <div id="library" class="library" hidden role="dialog" aria-modal="true" aria-labelledby="libTitle">
+    <div class="lib-bar">
+      <button id="libSideToggle" class="lib-side-toggle" type="button" aria-label="Show departments">☰</button>
+      <button id="libBack" class="btn lib-back" type="button" hidden>← All departments</button>
+      <button id="libHome" class="lib-title-btn" type="button"><h2 id="libTitle">SOP Library</h2></button>
+      <span id="libDeptTitle" class="lib-dept-title"></span>
+      <button id="libClose" class="btn" type="button">Close ✕</button>
+    </div>
+    <div class="lib-body">
+      <aside class="lib-side" aria-label="Departments">
+        <input id="libSearch" type="search" placeholder="Search department…" aria-label="Search department">
+        <nav id="libDepts"></nav>
+      </aside>
+      <article id="libContent" class="lib-content" tabindex="-1"></article>
+    </div>
+  </div>
+
+  <div class="bottom-bar">© 2026 Imo Chicken &amp; Agro (Pvt) Ltd. • MIS Department • All Rights Reserved.</div>
+
+  <script src="app.js?v=20261113-8"></script>
+  <script src="library.js?v=20261113-10"></script>
+</body>
+</html>

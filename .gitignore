@@ -1,0 +1,7 @@
+node_modules/
+*.bak-*
+*.bak
+.claude/
+/[0-9].png
+Thumbs.db
+.DS_Store

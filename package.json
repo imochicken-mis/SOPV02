@@ -1,0 +1,14 @@
+{
+  "name": "sop-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Department-wise SOP progress tracker, dashboard and SOP library (static site)",
+  "scripts": {
+    "scan": "node scripts/scan.js",
+    "start": "node scripts/serve.js",
+    "convert": "node scripts/convert.js"
+  },
+  "devDependencies": {
+    "mammoth": "^1.8.0"
+  }
+}

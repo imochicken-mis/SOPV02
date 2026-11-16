@@ -1,0 +1,1711 @@
+{
+  "generated": "2026-11-13",
+  "departments": [
+    {
+      "name": "Automotive",
+      "code": "AMD019",
+      "slug": "automotive",
+      "type": "html",
+      "file": "library/automotive.html",
+      "source": "Automotive AMD019.docx",
+      "sections": [
+        {
+          "id": "s14",
+          "title": "19. 02 වාහනයේ මූලික පරීක්ෂාව සහ දෝෂ හඳුනාගැනීමේ ක්‍රියාවලිය",
+          "level": 2
+        },
+        {
+          "id": "s28",
+          "title": "19. 03 අලුත්වැඩියා කටයුතු සැලසුම් කිරීම සහ වැඩ පැවරීමේ ක්‍රියාවලිය",
+          "level": 2
+        },
+        {
+          "id": "s42",
+          "title": "19. 04 අමතර කොටස් ඉල්ලුම් කිරීම සහ නිකුත් කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s56",
+          "title": "19.05 වැළැක්වීමේ නඩත්තු සේවා (Preventive Maintenance) ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s70",
+          "title": "19. 06 එන්ජින් අලුත්වැඩියා සහ නඩත්තු කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s84",
+          "title": "19.07 සම්ප්‍රේෂණ පද්ධතිය (Transmission) සහ ධාවන පද්ධතිය (Drivetrain) අලුත්වැඩියා කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s98",
+          "title": "19.08 තිරිංග පද්ධතිය පරීක්ෂා කිරීම සහ අලුත්වැඩියා කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s112",
+          "title": "19. 09 කම්පන අවශෝෂක (Suspension) සහ සුක්කානම් (Steering) පද්ධති අලුත්වැඩියා කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s126",
+          "title": "19. 10 විදුලි සහ ඉලෙක්ට්‍රොනික පද්ධති පරීක්ෂා කිරීම සහ අලුත්වැඩියා කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s140",
+          "title": "19. 11 ටයර් පරීක්ෂා කිරීම, ප්‍රතිස්ථාපනය කිරීම සහ රෝද පෙළගැස්වීමේ (Wheel Alignment) ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s154",
+          "title": "19. 12 වාහන බිඳවැටීම් සහ හදිසි අලුත්වැඩියා කටයුතු කළමනාකරණ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s168",
+          "title": "19. 13 වෑල්ඩින්, ලෝහ නිර්මාණ (Fabrication) සහ බොඩි අලුත්වැඩියා කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s182",
+          "title": "19. 14 වාහන පරීක්ෂා කිරීම සහ තත්ත්ව තහවුරු කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s196",
+          "title": "19.15 වාහන පිරිසිදු කිරීම සහ භාරදීමට සූදානම් කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s210",
+          "title": "19.16 වාහන අදාළ අංශය වෙත භාරදීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s225",
+          "title": "19.17 වැඩමුළු මෙවලම් සහ උපකරණ නඩත්තු කිරීමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s239",
+          "title": "19. 18 වැඩමුළු ආරක්ෂාව සහ ගෘහ පාලන (Housekeeping) ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s253",
+          "title": "19. 19 අපද්‍රව්‍ය බැහැර කිරීම සහ පාරිසරික අනුකූලතා ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s267",
+          "title": "19. 20 නඩත්තු වාර්තා සහ සේවා ඉතිහාස ලේඛන පවත්වාගෙන යාමේ ක්‍රියා පටිපාටිය",
+          "level": 2
+        },
+        {
+          "id": "s281",
+          "title": "19. 21 බාහිර සේවා සපයන්නන් සහ කොන්ත්‍රාත්කරුවන් සමඟ සම්බන්ධීකරණ ක්‍රියාවලිය",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "ERP",
+      "code": "ERP025",
+      "slug": "erp",
+      "type": "html",
+      "file": "library/erp.html",
+      "source": "ERP ERP025.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP-ERP-01.01 : ERP Governance and Administration",
+          "level": 2
+        },
+        {
+          "id": "s2",
+          "title": "SOP-ERP-02.01 : User Account Creation, Modification & Deactivation",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "SOP-ERP-03.01 : ERP Role & Access Rights Management",
+          "level": 2
+        },
+        {
+          "id": "s4",
+          "title": "SOP-ITERP-04 — Password, Authentication and Privileged Access Management",
+          "level": 2
+        },
+        {
+          "id": "s5",
+          "title": "SOP-ERP-05 : IT Helpdesk & User Support Management",
+          "level": 2
+        },
+        {
+          "id": "s6",
+          "title": "SOP-ERP-06 : IT/ERP Incident Management & Escalation",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "SOP-ERP-07 : ERP Application Support & Functional Issue Resolution",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "SOP-ERP-08 : ERP Master Data Creation and Maintenance",
+          "level": 2
+        },
+        {
+          "id": "s9",
+          "title": "SOP-ITERP-09 : ERP Transaction Correction, Reversal and Data Amendment",
+          "level": 2
+        },
+        {
+          "id": "s10",
+          "title": "SOP-ERP-10 : ERP Workflow and Approval Configuration Management",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Extension",
+      "code": "EXD006",
+      "slug": "extension",
+      "type": "html",
+      "file": "library/extension.html",
+      "source": "Extention  EXD006.docx",
+      "sections": [
+        {
+          "id": "sop-001",
+          "title": "BBF006/SOP/2026/001: Farmer Registration",
+          "level": 2
+        },
+        {
+          "id": "sop-002",
+          "title": "BBF006/SOP/2026/002: Contract & Agreement Management",
+          "level": 2
+        },
+        {
+          "id": "sop-003",
+          "title": "BBF006/SOP/2026/003: Feed Management",
+          "level": 2
+        },
+        {
+          "id": "s47",
+          "title": "BBF006/SOP/2026/004: Farm Readiness & Biosecurity Assessment Prior to Chick Placement",
+          "level": 2
+        },
+        {
+          "id": "sop-005",
+          "title": "BBF006/SOP/2026/005: Farm Monitoring & Biosecurity Management",
+          "level": 2
+        },
+        {
+          "id": "sop-006",
+          "title": "BBF006/SOP/2026/006: Live Bird Catching Operations",
+          "level": 2
+        },
+        {
+          "id": "sop-007",
+          "title": "BBF006/SOP/2026/007: Settlement Validation, Recovery & Financial Control",
+          "level": 2
+        },
+        {
+          "id": "sop-008",
+          "title": "BBF006/SOP/2026/008: Dispute Resolution & Farmer Grievance Handling",
+          "level": 2
+        },
+        {
+          "id": "sop-009",
+          "title": "BBF006/SOP/2026/009: Feed Conversion & Performance Monitoring",
+          "level": 2
+        },
+        {
+          "id": "sop-010",
+          "title": "BBF006/SOP/2026/010: Audit, Compliance & Continuous Improvement",
+          "level": 2
+        },
+        {
+          "id": "s153",
+          "title": "SOP–BB–11: Data Management & Reporting",
+          "level": 2
+        },
+        {
+          "id": "s177",
+          "title": "SOP–BB–12: Farmer Exit, Suspension & Re-Registration",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Farm Coordination",
+      "code": "FCD024",
+      "slug": "farm-coordination",
+      "type": "html",
+      "file": "library/farm-coordination.html",
+      "source": "Farm Coordination FCD024.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "FCO-SOP-01 Farm Supplies, Employee Dry-Ration Coordination",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "FCO-SOP-02 Parent Stock Day-Old Chick Purchase from Pussalla (Local Supplier)",
+          "level": 1
+        },
+        {
+          "id": "s5",
+          "title": "FCO-SOP-03 Trade and Environmental Licence Renewal and File Maintenance",
+          "level": 1
+        },
+        {
+          "id": "s7",
+          "title": "FCO-SOP-04 DAPH Farm Licence Renewal and File Maintenance",
+          "level": 1
+        },
+        {
+          "id": "s9",
+          "title": "FCO-SOP-05 Submission of Monthly Poultry Evaluation Reports to DAPH",
+          "level": 1
+        },
+        {
+          "id": "s11",
+          "title": "FCO-SOP-06 - CIC Feed Ordering and Distribution - Breeder Farms",
+          "level": 2
+        },
+        {
+          "id": "s13",
+          "title": "FCO-SOP-07 Broiler Day-Old Chick Allocation, Distribution and Excess-Chick Sales",
+          "level": 2
+        },
+        {
+          "id": "s15",
+          "title": "FCO-SOP-08 Procurement and Payment Coordination for New Farm Construction",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Feed Operation",
+      "code": "FOD030",
+      "slug": "feed-operation",
+      "type": "html",
+      "file": "library/feed-operation.html",
+      "source": "Feed Operation FOD030.docx",
+      "sections": [
+        {
+          "id": "s2",
+          "title": "SOP 15.1: Drugs, Vitamins and feed formulation related material Purchasing Process – Feed Mill",
+          "level": 2
+        },
+        {
+          "id": "s17",
+          "title": "SOP 15.2: Import of Raw Materials for Feed Production – Feed Mill",
+          "level": 2
+        },
+        {
+          "id": "s34",
+          "title": "SOP 15.3: Renewal of Acreage Tax, Business Tax Certificate, DAPH License & Environment Protection License (EPL) – Feed Mill",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Finance Department",
+      "code": "FID017",
+      "slug": "finance-department",
+      "type": "html",
+      "file": "library/finance-department.html",
+      "source": "Finance Department FID017.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "01.Financial Reporting",
+          "level": 1
+        },
+        {
+          "id": "s2",
+          "title": "A. Monthly Closing Procedure (Month-End Closing)",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "B. Monthly Financial Reporting Procedure",
+          "level": 2
+        },
+        {
+          "id": "s4",
+          "title": "C. Final Accounts Preparation",
+          "level": 2
+        },
+        {
+          "id": "s5",
+          "title": "D. Bank Reconciliation Procedure",
+          "level": 2
+        },
+        {
+          "id": "s6",
+          "title": "E. Financial Position Reporting",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "F. Statement Of Changes In Equity Reporting",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "I. Cash Flow Reporting",
+          "level": 2
+        },
+        {
+          "id": "s9",
+          "title": "J. Supporting Schedules & Attachments",
+          "level": 2
+        },
+        {
+          "id": "s10",
+          "title": "K. Notes to Financial Statements",
+          "level": 2
+        },
+        {
+          "id": "s11",
+          "title": "L. Management Reporting (Management Accounts / Audited Accounts)",
+          "level": 2
+        },
+
+        {
+          "id": "s13",
+          "title": "M. Accounting Policies Preparation and Implementation",
+          "level": 2
+        },
+        {
+          "id": "s14",
+          "title": "N. Fixed Asset Register Management",
+          "level": 2
+        },
+        {
+          "id": "s15",
+          "title": "02.Accounts Receivable Management",
+          "level": 1
+        },
+        {
+          "id": "s16",
+          "title": "A. Customer Master Setup And Maintenance",
+          "level": 2
+        },
+        {
+          "id": "s17",
+          "title": "B. Credit Policy Management And Credit Control",
+          "level": 2
+        },
+        {
+          "id": "s18",
+          "title": "C. Sales Invoicing Process",
+          "level": 2
+        },
+        {
+          "id": "s19",
+          "title": "D. Sales Invoice Recording And Customer Ledger Management",
+          "level": 2
+        },
+        {
+          "id": "s20",
+          "title": "E. Collection Management And Receivable Recovery",
+          "level": 2
+        },
+        {
+          "id": "s21",
+          "title": "F. Receipt Handling And Customer Payment Process",
+          "level": 2
+        },
+        {
+          "id": "s22",
+          "title": "G. Receipt Posting And Customer Payment Allocation",
+          "level": 2
+        },
+        {
+          "id": "s23",
+          "title": "H. Credit Control And Customer Risk Management",
+          "level": 2
+        },
+        {
+          "id": "s24",
+          "title": "I. Customer Reconciliation And Statement Confirmation",
+          "level": 2
+        },
+        {
+          "id": "s25",
+          "title": "J. Bad Debts, Expected Credit Loss (ECL) Provision, And Write-Off Of Trade Receivables",
+          "level": 2
+        },
+        {
+          "id": "s26",
+          "title": "K. Accounts Receivable Reporting And Management Review",
+          "level": 2
+        },
+        {
+          "id": "s27",
+          "title": "L. Month-End Accounts Receivable Closing Procedures",
+          "level": 2
+        },
+        {
+          "id": "s28",
+          "title": "M. Fraud Prevention And Internal Controls – Accounts Receivable",
+          "level": 2
+        },
+        {
+          "id": "s29",
+          "title": "N. Documentation And Filing Of Accounts Receivable Records",
+          "level": 2
+        },
+        {
+          "id": "s30",
+          "title": "03.Accounts Payable Management",
+          "level": 1
+        },
+        {
+          "id": "s31",
+          "title": "A. Invoice Receipt & Initial Control",
+          "level": 2
+        },
+        {
+          "id": "s32",
+          "title": "B. Way Matching (CRITICAL CONTROL)",
+          "level": 2
+        },
+        {
+          "id": "s33",
+          "title": "C. Enter Bill (System Entry – QB/ERP)",
+          "level": 2
+        },
+        {
+          "id": "s34",
+          "title": "D. Payment Voucher Preparation",
+          "level": 2
+        },
+        {
+          "id": "s35",
+          "title": "E. Payment Processing",
+          "level": 2
+        },
+        {
+          "id": "s36",
+          "title": "F. Credit Terms Management (Procurement)",
+          "level": 2
+        },
+        {
+          "id": "s37",
+          "title": "G. Penalty Charges & Surcharges Handling",
+          "level": 2
+        },
+        {
+          "id": "s38",
+          "title": "H. Accounts Payable Reports",
+          "level": 2
+        },
+        {
+          "id": "s39",
+          "title": "I. Month-End / Year-End Procedures",
+          "level": 2
+        },
+        {
+          "id": "s40",
+          "title": "J. Complete Payment Documentation",
+          "level": 2
+        },
+        {
+          "id": "s41",
+          "title": "K. Data Security & System Controls",
+          "level": 2
+        },
+        {
+          "id": "s42",
+          "title": "04. Cash Management",
+          "level": 1
+        },
+        {
+          "id": "s43",
+          "title": "A. Cash Collection",
+          "level": 2
+        },
+        {
+          "id": "s50",
+          "title": "B. Cash Payment",
+          "level": 2
+        },
+        {
+          "id": "s57",
+          "title": "C. Daily Cash Verification",
+          "level": 2
+        },
+        {
+          "id": "s64",
+          "title": "D. Cash Deposit Procedure",
+          "level": 2
+        },
+        {
+          "id": "s71",
+          "title": "E. Cash Reconciliation",
+          "level": 2
+        },
+        {
+          "id": "s78",
+          "title": "F. Surprise Cash Verification",
+          "level": 2
+        },
+        {
+          "id": "s85",
+          "title": "G. Security Controls",
+          "level": 2
+        },
+        {
+          "id": "s92",
+          "title": "H. Reporting & Documentation – Petty Cash",
+          "level": 2
+        },
+        {
+          "id": "s99",
+          "title": "I. Cash Shortage Handling Procedure",
+          "level": 2
+        },
+        {
+          "id": "s106",
+          "title": "J. Recovery & Corrective Action Procedure",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Finish Good",
+      "code": "FGD009",
+      "slug": "finish-good",
+      "type": "html",
+      "file": "library/finish-good.html",
+      "source": "Finish Good FGD009.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "4.1 Transfer of Finished Goods from Blast Freezer to Cold Room.",
+          "level": 3
+        },
+        {
+          "id": "s2",
+          "title": "4.2 Stored Items obtained from the blast freezer are stored in the cool room according to their batch-related item numbers",
+          "level": 3
+        },
+        {
+          "id": "s3",
+          "title": "4.3 Coordinating with the Sales Admin Department to ensure the timely release of finished products.",
+          "level": 3
+        },
+        {
+          "id": "s4",
+          "title": "4.4 The Finished Goods Department accepts orders sent by the Sales Department.",
+          "level": 3
+        },
+        {
+          "id": "s5",
+          "title": "4.5 Preparing the order issued by the Sales Department to the Finished Goods Department",
+          "level": 3
+        },
+        {
+          "id": "s6",
+          "title": "4.7 Sales Vehicle Arrangement Process",
+          "level": 3
+        },
+        {
+          "id": "s7",
+          "title": "4.9 Sales Vehicle Condition Inspection and Compliance Procedure",
+          "level": 3
+        },
+        {
+          "id": "s8",
+          "title": "4.10 Finished Goods Loading Operations Procedure",
+          "level": 3
+        },
+        {
+          "id": "s9",
+          "title": "4.11 Sales and Shop Return Handling Procedure",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "General Admin",
+      "code": "GAD016",
+      "slug": "general-admin",
+      "type": "html",
+      "file": "library/general-admin.html",
+      "source": "Kitchen Operation.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP 01- Kitchen Operation",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "Human Resources",
+      "code": "HRD013",
+      "slug": "human-resources",
+      "type": "html",
+      "file": "library/human-resources.html",
+      "source": "HR_SOP_HRD013.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Main Task List",
+          "level": 1
+        },
+        {
+          "id": "s2",
+          "title": "Existing Processing Plant Organization Structure",
+          "level": 1
+        },
+        {
+          "id": "s3",
+          "title": "Proposed Processing Plant Organization Structure",
+          "level": 1
+        },
+        {
+          "id": "s4",
+          "title": "13.01 – Recruitment Selection & Employee Hiring",
+          "level": 1
+        },
+        {
+          "id": "s14",
+          "title": "13.02 – Employee Onboarding & Orientation",
+          "level": 1
+        },
+        {
+          "id": "s24",
+          "title": "13.03 – Employee Personal File Management",
+          "level": 1
+        },
+        {
+          "id": "s34",
+          "title": "13.04 – Company Item Handover",
+          "level": 1
+        },
+        {
+          "id": "s44",
+          "title": "13.05 – Probation Management & Confirmation",
+          "level": 1
+        },
+        {
+          "id": "s54",
+          "title": "13.06 – Leave Management",
+          "level": 1
+        },
+        {
+          "id": "s64",
+          "title": "13.07 – Performance Appraisal",
+          "level": 1
+        },
+        {
+          "id": "s74",
+          "title": "13.08 – Promotions & Increments",
+          "level": 1
+        },
+        {
+          "id": "s84",
+          "title": "13.09 – Welfare Claim Procedure",
+          "level": 1
+        },
+        {
+          "id": "s94",
+          "title": "13.10 – Attendance & Time Management",
+          "level": 1
+        },
+        {
+          "id": "s104",
+          "title": "13.11 – Payroll Administration",
+          "level": 1
+        },
+        {
+          "id": "s114",
+          "title": "13.12 – Statutory Deductions (EPF / ETF / PAYE)",
+          "level": 1
+        },
+        {
+          "id": "s124",
+          "title": "13.13 – Training & Development",
+          "level": 1
+        },
+        {
+          "id": "s134",
+          "title": "13.14 – Disciplinary Inquiry & Investigation",
+          "level": 1
+        },
+        {
+          "id": "s144",
+          "title": "13.15 – Grievance Handling",
+          "level": 1
+        },
+        {
+          "id": "s154",
+          "title": "13.16 – Accident, Injury & Sudden Illness Reporting",
+          "level": 1
+        },
+        {
+          "id": "s164",
+          "title": "13.17 – Exit Interview & Knowledge Capture",
+          "level": 1
+        },
+        {
+          "id": "s174",
+          "title": "13.18 – Final Settlement & Clearance",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "Information Technology",
+      "code": "ITD021",
+      "slug": "information-technology",
+      "type": "html",
+      "file": "library/information-technology.html",
+      "source": "Information Technology ITD021.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Network & IT Support Operations",
+          "level": 1
+        },
+        {
+          "id": "s17",
+          "title": "21.02-Network & IT Support Operations",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "Live Birds",
+      "code": "LBD007",
+      "slug": "live-birds",
+      "type": "html",
+      "file": "library/live-birds.html",
+      "source": "Live Birds LBD007.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "Preparing a Monthly Birds Catching Forecast",
+          "level": 2
+        },
+        {
+          "id": "s2",
+          "title": "Coordination with BuyBack Department & Company Farms for Live Bird Supply",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "Live Birds Catching and Operations",
+          "level": 2
+        },
+        {
+          "id": "s4",
+          "title": "Live Weight Book, Order Book & Sales Register Management",
+          "level": 1
+        },
+        {
+          "id": "s5",
+          "title": "Coordination Between QA Department and Audit Department in the Live Bird Sales & Operations Department",
+          "level": 2
+        },
+        {
+          "id": "s6",
+          "title": "Parent Bird Sale, Disabled Bird Sale, and Dead Bird Sale for Pet Food Manufacturing",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "Coordination with Finance Department",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "Admin Procedurese",
+          "level": 2
+        },
+        {
+          "id": "s9",
+          "title": "7.1 Preparing a Monthly Live Bird Catching Forcast",
+          "level": 2
+        },
+        {
+          "id": "s20",
+          "title": "1.1 Obtain BuyBack Farm Placement Information",
+          "level": 3
+        },
+        {
+          "id": "s21",
+          "title": "1.2 Analyze Harvesting Availability",
+          "level": 3
+        },
+        {
+          "id": "s22",
+          "title": "1.3 Coordinate with the Production Department",
+          "level": 3
+        },
+        {
+          "id": "s23",
+          "title": "1.4 Prepare Monthly Catching Schedule",
+          "level": 3
+        },
+        {
+          "id": "s24",
+          "title": "1.5 Internal Review and Verification",
+          "level": 3
+        },
+        {
+          "id": "s25",
+          "title": "1.6 Approval",
+          "level": 3
+        },
+        {
+          "id": "s34",
+          "title": "7.2 Coordination with BuyBack Department & Company Farms for Live Bird Supply",
+          "level": 2
+        },
+        {
+          "id": "s45",
+          "title": "7.3 Receiving Customer Orders for Live Birds & Order Booking Process",
+          "level": 2
+        },
+        {
+          "id": "s56",
+          "title": "3.1 Receive Customer Order Request",
+          "level": 3
+        },
+        {
+          "id": "s57",
+          "title": "3.2 Verify Customer Eligibility",
+          "level": 3
+        },
+        {
+          "id": "s58",
+          "title": "3.3 Check Bird Availability",
+          "level": 3
+        },
+        {
+          "id": "s59",
+          "title": "3.4 Allocate Bird Quantity",
+          "level": 3
+        },
+        {
+          "id": "s72",
+          "title": "7.4 Live Birds Catching and Operations",
+          "level": 2
+        },
+        {
+          "id": "s83",
+          "title": "4.1 Receive Bird Requirement",
+          "level": 3
+        },
+        {
+          "id": "s90",
+          "title": "7.5 Live Weight Book & Sales Register Management",
+          "level": 1
+        },
+        {
+          "id": "s120",
+          "title": "7.6 Coordination Between QA Department and Audit Department",
+          "level": 3
+        },
+        {
+          "id": "s131",
+          "title": "6.1 Transportation Monitoring",
+          "level": 3
+        },
+        {
+          "id": "s132",
+          "title": "6.2 Non-Conformance Management",
+          "level": 3
+        },
+        {
+          "id": "s133",
+          "title": "6.3 Weight reduction for identified problems in Bird Batches brought from farms.",
+          "level": 3
+        },
+        {
+          "id": "s134",
+          "title": "6.4 Pre-Audit Preparation",
+          "level": 3
+        },
+        {
+          "id": "s135",
+          "title": "6.5 Audit Execution",
+          "level": 3
+        },
+        {
+          "id": "s136",
+          "title": "6.6 Audit Findings",
+          "level": 3
+        },
+        {
+          "id": "s137",
+          "title": "6.7 Audit Reporting",
+          "level": 3
+        },
+        {
+          "id": "s138",
+          "title": "6.8 Corrective Actions",
+          "level": 3
+        },
+        {
+          "id": "s142",
+          "title": "7.7 Parents Bird Sale",
+          "level": 2
+        },
+        {
+          "id": "s160",
+          "title": "7.8 Coordination with Finance Department",
+          "level": 2
+        },
+        {
+          "id": "s171",
+          "title": "8.1 Submission of Sales Information",
+          "level": 3
+        },
+        {
+          "id": "s172",
+          "title": "8.2 Verification of Customer Credit Status",
+          "level": 3
+        },
+        {
+          "id": "s173",
+          "title": "1. Finance Department checks customer credit status.",
+          "level": 3
+        },
+        {
+          "id": "s174",
+          "title": "2. For credit customers:",
+          "level": 3
+        },
+        {
+          "id": "s175",
+          "title": "Outstanding balances are reviewed.",
+          "level": 3
+        },
+        {
+          "id": "s176",
+          "title": "Available credit limits are verified.",
+          "level": 3
+        },
+        {
+          "id": "s177",
+          "title": "3. Customers exceeding approved limits require Finance Manager approval before delivery.",
+          "level": 3
+        },
+        {
+          "id": "s178",
+          "title": "8.3 Payment Collection Coordination",
+          "level": 3
+        },
+        {
+          "id": "s179",
+          "title": "1. Live Sales admin Officer monitors Customer payments.",
+          "level": 3
+        },
+        {
+          "id": "s180",
+          "title": "2. Finance Executive communicates overdue accounts to Live Sales admin Officer",
+          "level": 3
+        },
+        {
+          "id": "s181",
+          "title": "3. Live Sales admin Officer follows up with customers regarding outstanding payments.",
+          "level": 3
+        },
+        {
+          "id": "s182",
+          "title": "4. Any payment disputes are jointly investigated by Sales and Finance Departments",
+          "level": 3
+        },
+        {
+          "id": "s183",
+          "title": "8.4 Daily Sales Reporting",
+          "level": 3
+        },
+        {
+          "id": "s184",
+          "title": "1. Live Sales admin Officer submits daily sales summary.",
+          "level": 3
+        },
+        {
+          "id": "s185",
+          "title": "2. Finance Department compares:",
+          "level": 3
+        },
+        {
+          "id": "s186",
+          "title": "Sales orders",
+          "level": 3
+        },
+        {
+          "id": "s187",
+          "title": "Delivery records",
+          "level": 3
+        },
+        {
+          "id": "s188",
+          "title": "Customer Transactions",
+          "level": 3
+        },
+        {
+          "id": "s189",
+          "title": "Any discrepancies are reported immediately for correction.",
+          "level": 3
+        },
+        {
+          "id": "s190",
+          "title": "8.5 Sales Reconciliation",
+          "level": 3
+        },
+        {
+          "id": "s191",
+          "title": "1. Daily and Monthly reconciliation is performed jointly.",
+          "level": 3
+        },
+        {
+          "id": "s192",
+          "title": "Compare:",
+          "level": 3
+        },
+        {
+          "id": "s193",
+          "title": "Total birds sold",
+          "level": 3
+        },
+        {
+          "id": "s194",
+          "title": "Total live weight sold",
+          "level": 3
+        },
+        {
+          "id": "s195",
+          "title": "Total invoices issued",
+          "level": 3
+        },
+        {
+          "id": "s196",
+          "title": "Payments received",
+          "level": 3
+        },
+        {
+          "id": "s197",
+          "title": "Outstanding receivables",
+          "level": 3
+        },
+        {
+          "id": "s198",
+          "title": "2. Differences are investigated and documented.",
+          "level": 3
+        },
+        {
+          "id": "s199",
+          "title": "8.6 Identification of Payment Requirement",
+          "level": 3
+        },
+        {
+          "id": "s200",
+          "title": "1. Sales & Operation Manager Verify & update forecasted expenses / revenue Sheet",
+          "level": 3
+        },
+        {
+          "id": "s201",
+          "title": "8.7 Preparation of Payment Request",
+          "level": 3
+        },
+        {
+          "id": "s202",
+          "title": "8.8 Verification",
+          "level": 3
+        },
+        {
+          "id": "s203",
+          "title": "8.10 Recording and Filing",
+          "level": 3
+        },
+        {
+          "id": "s207",
+          "title": "7.9 Admin Procedures",
+          "level": 2
+        },
+        {
+          "id": "s218",
+          "title": "9.1 Workforce Planning",
+          "level": 3
+        },
+        {
+          "id": "s219",
+          "title": "9.2 Workforce Scheduling",
+          "level": 3
+        },
+        {
+          "id": "s220",
+          "title": "9.3 Attendance Management",
+          "level": 3
+        },
+        {
+          "id": "s221",
+          "title": "9.4 Workforce Deployment",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "Procurement",
+      "code": "PRC028",
+      "slug": "procurement",
+      "type": "html",
+      "file": "library/procurement.html",
+      "source": "Procurement PRC028.docx",
+      "sections": [
+                { "id": "prc-01", "title": "PRC028 - 01 Procurement Planning & Requirement Identification", "level": 1 },
+        { "id": "prc-02", "title": "PRC028 - 02 Drugs & Chemical Purchasing and Cheques Payment Management", "level": 1 },
+        { "id": "prc-03", "title": "PRC028 - 03 Poultry Feed Procurement from Other Companies", "level": 1 },
+        { "id": "prc-04", "title": "PRC028 - 04 Day Old Chicks (Broiler) Procurement Management", "level": 1 },
+        { "id": "prc-5", "title": "PRC028 - 05 Fuel & Rubriquant Procurement Mangement", "level": 1 },
+        { "id": "prc-06", "title": "PRC028 - 06 Procurement of Packing Bags & Other Items on Credit Basis", "level": 1 },
+        { "id": "prc-07", "title": "PRC028 - 07 Gas Purchasing Management", "level": 1 },
+        { "id": "prc-08", "title": "PRC028 - 08 Paddy Husk Procurement Management", "level": 1 },
+        { "id": "prc-09", "title": "PRC028 - 09 Hardware Item Procurement Management", "level": 1 },
+        { "id": "prc-10", "title": "PRC028 - 10 Vehicle Insurance Management and Insurance Claim Settlement", "level": 1 }
+      ]
+    },
+    {
+      "name": "Production",
+      "code": "PRD008",
+      "slug": "production",
+      "type": "html",
+      "file": "library/production.html",
+      "source": "Productio PRD008.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "8.1. Live Birds Receiving",
+          "level": 2
+        },
+        {
+          "id": "s17",
+          "title": "8.2. Live Birds Handling and Slaughtering",
+          "level": 2
+        },
+        {
+          "id": "s33",
+          "title": "8.3. Evisceration",
+          "level": 2
+        },
+        {
+          "id": "s34",
+          "title": "8.4. Packing",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Quality Assurance",
+      "code": "QAD010",
+      "slug": "quality-assurance",
+      "type": "html",
+      "file": "library/quality-assurance.html",
+      "source": "Quality Assuarance QAD010.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP-QA-10.01: Implementation Food Safety Management System",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "SOP-QA-10.02: Service and Supplier Control",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "SOP-QA-10.03: In-Process Quality Control",
+          "level": 2
+        },
+        {
+          "id": "s31",
+          "title": "SOP-QA-10.04 Customer Complain Handling",
+          "level": 2
+        },
+        {
+          "id": "s32",
+          "title": "SOP-QA-10.05 Laboratory Testing",
+          "level": 2
+        },
+        {
+          "id": "s33",
+          "title": "SOP-QA-10.06 Management of FSSC Additional Requirements",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Sales & Marketing Department",
+      "code": "SMD011",
+      "slug": "sales-and-marketing-department",
+      "type": "html",
+      "file": "library/sales-and-marketing-department.html",
+      "source": "Sales & Marketing Department SMD 011.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP-SMD-011.01 : Route Planning",
+          "level": 2
+        },
+        {
+          "id": "s2",
+          "title": "SOP-SMD-011.02 : Customer Registration and Customer Code Issuance",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "SOP-SMD-011.03 : Sales Order Management",
+          "level": 2
+        },
+        {
+          "id": "s4",
+          "title": "SOP-SMD-011.04 : Sales Invoice Issuance & Control",
+          "level": 2
+        },
+        {
+          "id": "s5",
+          "title": "SOP-SMD-011.05 : Customer Collection & Receipt Issuance",
+          "level": 2
+        },
+        {
+          "id": "s6",
+          "title": "SOP-SMD-011.06 : Daily, Weekly & Monthly Sales Reports Preparation & Handover",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "SOP-SMD-011.09 : Customer Complaints Management & Corrective Actions",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "SOP-SMD-011.10 : Monthly Sales Conference & Sales Meeting Management",
+          "level": 2
+        },
+        {
+          "id": "s9",
+          "title": "SOP-SMD-011.11 : Debtors Meeting & Accounts Receivable Review",
+          "level": 2
+        },
+        {
+          "id": "s10",
+          "title": "SOP-SMD-011.12 : Stock Variance Control & Investigation",
+          "level": 2
+        },
+        {
+          "id": "s11",
+          "title": "SOP-SMD-011.0 : Company-Issued TAB, Mobile Phone, POS & Other IT Assets – Issuance, Usage & Maintenance",
+          "level": 2
+        },
+        {
+          "id": "s12",
+          "title": "SOP-SMD-011.14 : Weekly Expense Approval & Reimbursement Procedure",
+          "level": 2
+        },
+        {
+          "id": "s13",
+          "title": "SOP-SMD-011.15 : Recruitment, Transfer & Separation Procedure – Sales Department",
+          "level": 2
+        },
+        {
+          "id": "s14",
+          "title": "SOP-SMD-011.16 : Leave Management & Approval Procedure – Sales Department",
+          "level": 2
+        },
+        {
+          "id": "s15",
+          "title": "SOP-SMD-011.17 : Cash, Company Assets Protection & Compliance with Company Rules",
+          "level": 2
+        },
+        {
+          "id": "s16",
+          "title": "SOP-SMD-011.18 : Product Pricing Determination & Price Revision Procedure",
+          "level": 2
+        },
+        {
+          "id": "s17",
+          "title": "SOP-SMD-011.19 : Monthly, Quarterly & Annual Sales Target Planning and Performance Monitoring",
+          "level": 2
+        },
+        {
+          "id": "s18",
+          "title": "SOP-SMD-011.20 : Product Quality Maintenance & Market Selling Procedure",
+          "level": 2
+        },
+        {
+          "id": "s19",
+          "title": "SOP-SMD-011.21 : Unexpected Accidents, Emergencies & Disaster Management Procedure",
+          "level": 2
+        },
+        {
+          "id": "s20",
+          "title": "SOP-SMD-011.22 : Merchandising Procedure",
+          "level": 2
+        },
+        {
+          "id": "s21",
+          "title": "SOP-SMD-011.23 : Demand Forecasting & Demand Planning Procedure",
+          "level": 2
+        },
+        {
+          "id": "s22",
+          "title": "SOP-SMD-011.24 : Sales Staff Performance Evaluation and Feedback",
+          "level": 2
+        },
+        {
+          "id": "s23",
+          "title": "SOP-SMD-011.25 : Customer Relationship Management (CRM)",
+          "level": 2
+        },
+        {
+          "id": "s24",
+          "title": "SOP-SMD-011.26 : Customer Requirement and Request Management",
+          "level": 2
+        },
+        {
+          "id": "s25",
+          "title": "SOP-SMD-011.27 : Market Intelligence and Competitor Analysis",
+          "level": 2
+        },
+        {
+          "id": "s26",
+          "title": "SOP-SMD-011.28 : Dishonored Cheque Handling, Reporting and Recovery Procedure",
+          "level": 2
+        },
+        {
+          "id": "s27",
+          "title": "SOP-SMD-011.29 : Bad Debts / Difficult Collections Management Procedure",
+          "level": 2
+        },
+        {
+          "id": "s28",
+          "title": "SOP-SMD-011.30 : Promotion Planning and Implementation",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Sales Admin Department",
+      "code": "SAD012",
+      "slug": "sales-admin-department",
+      "type": "html",
+      "file": "library/sales-admin-department.html",
+      "source": "Sales Admin Department SAD 012.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP-SMD-012.01 : Pricing & Discount Management",
+          "level": 2
+        },
+        {
+          "id": "s2",
+          "title": "SOP-SMD-012.02 : Customer Activation & Credit Administration",
+          "level": 2
+        },
+        {
+          "id": "s3",
+          "title": "SOP-SMD-012.03 : Sales Order Management",
+          "level": 2
+        },
+        {
+          "id": "s4",
+          "title": "SOP-SMD-012.04 : Invoicing & Documentation",
+          "level": 2
+        },
+        {
+          "id": "s5",
+          "title": "SOP-SMD-012.05 : Collection & Receivables Management",
+          "level": 2
+        },
+        {
+          "id": "s6",
+          "title": "SOP-SMD-012.06 : Sales Return, Shop Return & Customer Complain Handling",
+          "level": 2
+        },
+        {
+          "id": "s7",
+          "title": "SOP-SMD-012.07 : Recovery & Legal Follow-up",
+          "level": 2
+        },
+        {
+          "id": "s8",
+          "title": "SOP-SMD-012.08 : Sales Staff Administration & Sales Reporting",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "code": "SEY029",
+      "slug": "security",
+      "type": "html",
+      "file": "library/security.html",
+      "source": "Security SEY029.docx",
+      "sections": [
+        {
+          "id": "s17",
+          "title": "SEC-SOP-01-Employee Entry & Exit Control",
+          "level": 2
+        },
+        {
+          "id": "s22",
+          "title": "SEC-SOP-02-Visitor Entry & Exit Management",
+          "level": 2
+        },
+        {
+          "id": "s23",
+          "title": "SEC-SOP-03-Supplier & Service Provider Vehicle Entry & Exit Control",
+          "level": 2
+        },
+        {
+          "id": "s24",
+          "title": "SEC-SOP-04-Freezer truck entry and exit Control",
+          "level": 2
+        },
+        {
+          "id": "s25",
+          "title": "SEC-SOP–05-Live Bird Vehicle Entry & Exit Control",
+          "level": 2
+        },
+        {
+          "id": "s26",
+          "title": "SEC-SOP-06- Receive and issue fuel at the fuel station.",
+          "level": 2
+        },
+        {
+          "id": "s27",
+          "title": "SEC–SOP–07-Weighbridge Operation Control",
+          "level": 2
+        },
+        {
+          "id": "s28",
+          "title": "SEC–SOP–08-Material Gate Pass Control",
+          "level": 2
+        },
+        {
+          "id": "s29",
+          "title": "SEC-SOP-09-Employee Personal Vehicles Entry Exit Handling",
+          "level": 2
+        },
+        {
+          "id": "s30",
+          "title": "SEC-SOP-10-Employee Entry and Exit Company Transport Vehicles",
+          "level": 2
+        },
+        {
+          "id": "s31",
+          "title": "SEC-SOP-11-OFFICE & VEHICLE KEY HANDING OVER TAKING OVER",
+          "level": 2
+        },
+        {
+          "id": "s32",
+          "title": "SEC–SOP–12- Security Documentation, Records and office Management",
+          "level": 2
+        },
+        {
+          "id": "s33",
+          "title": "SEC-SOP-13-Seal Bags and Cheques Handing",
+          "level": 2
+        },
+        {
+          "id": "s34",
+          "title": "SEC-SOP-14-Employee Locker Inspection Procedure",
+          "level": 2
+        },
+        {
+          "id": "s35",
+          "title": "SEC-SOP-15- Distribute Letters and Document",
+          "level": 2
+        },
+        {
+          "id": "s36",
+          "title": "SEC-SOP-16- Security Patrol",
+          "level": 2
+        },
+        {
+          "id": "s37",
+          "title": "SEC-SOP-17-Contractor Entry & Exit Management",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Stores",
+      "code": "STO027",
+      "slug": "stores",
+      "type": "html",
+      "file": "library/stores.html",
+      "source": "Stores STO027.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "SOP–GS–27.01 Material Master & Item Classification",
+          "level": 1
+        },
+        {
+          "id": "s16",
+          "title": "SOP–GS–27.02 – Material Request Procedure",
+          "level": 1
+        },
+        {
+          "id": "s30",
+          "title": "SOP–GS–27.03 – Receiving of Materials",
+          "level": 1
+        },
+        {
+          "id": "s44",
+          "title": "SOP–GS–27-04-Storage, Segregation & Housekeeping",
+          "level": 1
+        },
+        {
+          "id": "s58",
+          "title": "SOP–GS–27.05-Issuing of Materials",
+          "level": 1
+        },
+        {
+          "id": "s72",
+          "title": "SOP–GS–27-06-Return of Issued Materials",
+          "level": 1
+        },
+        {
+          "id": "s86",
+          "title": "SOP–GS–27-07-Stock Transfer Between Locations",
+          "level": 1
+        },
+        {
+          "id": "s100",
+          "title": "SOP–GS–27-08-Stock Adjustment & Disposal",
+          "level": 1
+        },
+        {
+          "id": "s113",
+          "title": "SOP–GS–27-09-Stores Security & Access Control",
+          "level": 1
+        },
+        {
+          "id": "s127",
+          "title": "SOP–GS–27-10-ERP / Inventory System Management",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "Technical & Maintenance",
+      "code": "TMD020",
+      "slug": "technical-and-maintenance",
+      "type": "html",
+      "file": "library/technical-and-maintenance.html",
+      "source": "Technical & Maintenance TMD020.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "20.1. Production Maintenance.",
+          "level": 3
+        },
+        {
+          "id": "s2",
+          "title": "20.02. General Maintenance",
+          "level": 3
+        },
+        {
+          "id": "s3",
+          "title": "20.03. Cold room & Blast Freezer Maintenance",
+          "level": 3
+        },
+        {
+          "id": "s4",
+          "title": "20.04 Water treatment system",
+          "level": 3
+        },
+        {
+          "id": "s5",
+          "title": "20.5 Wastewater plant maintenance",
+          "level": 3
+        },
+        {
+          "id": "s6",
+          "title": "20.6. Welding & Fabrication",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "Training & Development",
+      "code": "TND015",
+      "slug": "training-and-development",
+      "type": "html",
+      "file": "library/training-and-development.html",
+      "source": "Training and Development TND015.docx",
+      "sections": [
+        {
+          "id": "s1",
+          "title": "T & D- SOP-01 Training & Development Procedure",
+          "level": 2
+        }
+      ]
+    },
+    {
+      "name": "Transport Department",
+      "code": "TOD018",
+      "slug": "transport-department",
+      "type": "html",
+      "file": "library/transport-department.html",
+      "source": "Trasnport Department TOD018.docx",
+      "sections": [
+        {
+          "id": "s7",
+          "title": "18.1 ප්‍රවාහන සැලසුම් කිරීම (Transport Planning SOP)",
+          "level": 2
+        },
+        {
+          "id": "s28",
+          "title": "18.2 වාහන වෙන් කිරීම (Vehicle Allocation)",
+          "level": 2
+        },
+        {
+          "id": "s49",
+          "title": "18.3 සේවක ප්‍රවාහනය (Employee Transportation)",
+          "level": 2
+        },
+        {
+          "id": "s70",
+          "title": "18.4 ජීව කුකුළන් ප්‍රවාහනය (Live Bird Transportation)",
+          "level": 2
+        },
+        {
+          "id": "s84",
+          "title": "18.5 වාහන නඩත්තු කළමනාකරණය (Fleet Maintenance Management)",
+          "level": 2
+        },
+        {
+          "id": "s98",
+          "title": "18.6 ප්‍රවාහන ලේඛන කළමනාකරණය (Transport Documentation)",
+          "level": 2
+        },
+        {
+          "id": "s114",
+          "title": "18.7 දුම් පරීක්ෂණ වාර්තා හා තත්ත්ව සහතික (Emission Test & Certificate of Fitness Management)",
+          "level": 1
+        }
+      ]
+    }
+  ]
+}
